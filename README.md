@@ -108,7 +108,9 @@ Clientwebtest.cpp : file with code client part
 # Requirements
 
 1 Os - Windows.
+
 2 Compiler with support standard C++11 and upper
+
 3 library winsock2 for work to web sockets.
 
 # How start
