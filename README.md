@@ -1,3 +1,5 @@
+# Ru: 
+
 # Simple_chat
 Простой чат(Клиент-сервер) на C++ с помощью WINSOCK(сокетов)
 
@@ -68,3 +70,55 @@ ClientWebtest.cpp: Файл с кодом для работы клиентско
 
 
 Для выхода из чата вводим команду 'exit'.
+
+# Eng:
+
+simple chat(client-server) on C++,made with help sockets(library winsock)
+
+# Features
+
+Server : 
+
+Accept connection from some clients
+
+Work in multithreading
+
+assigns id(users) in WIP.(Work in progress)
+
+It processes messages from customers and forwards them to other connected users.
+
+Client:
+
+Connection on server
+
+Send message on server
+
+receives and out message other clients chat
+
+out id(user).In WIP(Work in progress).
+
+# Structure
+
+Webtest.cpp : file with code server part
+
+Clientwebtest.cpp : file with code client part
+
+# How using
+
+# Requirements
+
+1 Os - Windows.
+2 Compiler with support standard C++11 and upper
+3 library winsock2 for work to web sockets.
+
+# How start
+
+Start with compile server and run.After compile client and run.
+
+client have to enter Ip-adress,for connection
+
+After successful connection,client have to enter nickname.
+
+and use chat for chatting.
+
+For exit from chat enter command 'exit'
